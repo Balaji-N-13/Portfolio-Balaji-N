@@ -61,7 +61,7 @@ body {
 /*home*/
 
 .home {
-    position: relative;
+    position:relative;
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
@@ -71,6 +71,7 @@ body {
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
+    margin-left: 4%;
 }
 
 .home-content {
@@ -79,7 +80,7 @@ body {
 
 .home-content h1 {
     font-size: 56px;
-    font-weight: 700;
+    font-weight: 600;
     margin: -3px 0;
     letter-spacing: 5px;
     padding-top: 10px;
@@ -90,7 +91,7 @@ body {
 }
 
 .home-content h3 {
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -163,7 +164,7 @@ body {
 .img {
     display: inline-block;
     left: 55%;
-    bottom: 15%;
+    bottom: 16%;
     margin-right: 5%;
     padding: 0;
     background-repeat: no-repeat;
@@ -176,13 +177,14 @@ body {
 }
 
 .responsive {
-    width: 85%;
+    width: 100%;
     height: auto;
     border-top-left-radius: 251px;
-    border-top-right-radius: 480px;
-    border-bottom-left-radius: 250px;
+    border-top-right-radius: 251px;
+    border-bottom-left-radius: 251px;
     border-bottom-right-radius: 251px;
 }
+
 
 /*about*/
 
@@ -195,7 +197,7 @@ body {
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
-    padding: 120px 5% 0;
+    padding: 70px 5% 0;
 }
 
 .about-img {
@@ -626,11 +628,15 @@ body {
 
 .sub-title span {
     color: #0ef;
+    font-size: 43px;
 }
-
+.box{
+    overflow:inherit;
+    width: 200;
+}
 .prj-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -726,6 +732,7 @@ body {
 
 .contact-text h4 {
     margin: 15px 0;
+    margin-left: 5%;
     color: rgb(228, 228, 228);
     font-size: 20px;
     font-weight: 600;
@@ -738,7 +745,9 @@ body {
     margin-bottom: 2rem;
 }*/
 .contact-list {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-list li {
@@ -756,13 +765,15 @@ body {
     transition: all .40s ease;
     padding: 10px;
 }
-
+.contact-icons{
+    margin-left: 10%;
+}
 
 .contact-icons i {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
+    width: 50px;
     height: 40px;
     background: transparent;
     border: 2px solid #0ef;
@@ -783,6 +794,7 @@ body {
 .last-text p{
     width: 100%;
     text-align: center;
+
     padding: 25px;
     background: black;
     font-weight: 300;
@@ -993,13 +1005,14 @@ body {
         font-weight: 200;
     }
     .img{
-        max-width: 400px;
+        max-width: 200px;
         position: relative;
         left: -10%;
         top: 2%;
         padding-bottom: 30px;
         padding-left: 0;
         margin-left: 0;
+        margin-right: 0;
     }
     .btn-box:hover {
         box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
@@ -1254,6 +1267,9 @@ body {
     .contact-list i{
         font-size: 13px;
         padding: 5px 5px 0 0;
+    }
+    .contact-list{
+        margin-left: 10%;
     }
     
     .top{
